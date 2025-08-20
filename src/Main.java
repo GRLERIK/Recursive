@@ -10,10 +10,7 @@ public class Main {
          r.setN(3);
          r.crescente();
 
-         System.out.println("Levi:");
-         r2.setN(6);
-         r2.setN2(3);
-         r2.div();
+         
     }
 
 }

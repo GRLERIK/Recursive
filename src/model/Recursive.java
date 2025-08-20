@@ -53,4 +53,15 @@ public class Recursive {
         return descrescenteRecursiva(n - 1);
     }
 
+    //Questão 3
+    public int divisaoInt(int a, int b) {
+        return divisao(a, b);
+    }
+
+    private int divisao(int a , int b) {
+        if (a < b) {
+            return 0;
+        }
+        return 1 + divisao( a - b, b);
+    }
 }
